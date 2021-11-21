@@ -1,0 +1,181 @@
+<!DOCTYPE html> <!--Định nghĩa loại tài liệu-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta charset="UTF-8"> <!--Định nghĩa siêu dữ liệu-->
+              <title>HTML cơ bản</title> 
+
+              <!--liên kết css -->
+              <link href="./css/style.css" rel="stylesheet" type="text/css" >
+               
+              <!--liên kết phông chữ -->
+
+              <!--copy trên https://fonts.google.com/    
+                thêm type="text/css"-->
+              
+              <link rel="preconnect" type="text/css" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Grenze+Gotisch:wght@200&display=swap" rel="stylesheet">
+              
+            <!--làm tiêu đề đầu trang-->
+            
+            
+
+            <!--làm thêm chia web ra nhiều phần .one-third... -->
+            <!--làm thêm chia web ra nhiều phần .top bar -->
+
+
+    </head>
+
+    <body>
+        <!--làm thêm chia web ra nhiều phần .top bar -->
+
+        <!--lam bo cuc trang web-->
+        
+        <div class="wrap"> <!-- sử dụng 1 div bao hết nội dung web lại -->
+ 
+            <div id="header"> <!-- phần header -->
+            <a href="https://www.google.com.vn">google.com</a> 
+             <!-- dùng thẻ br để xuống dòng làm vùng to ra dễ nhìn -->
+            <br>
+
+            <!--làm menu -->
+            <ul id="navbar">
+                <li><a href="./index copy.html"> Home</a></li>
+                <li>About</li>
+                <li>Reviews</li>
+                <li><a href="https://www.google.com.vn">Contact</a></li>
+            </ul>
+
+            
+            
+
+            </div>
+             
+            <div class="main"> <!-- bao phần nội dung chính -->
+                <div class="nav">
+                    <h2 class="no-margin-top">Welcome!</h2>
+
+                    <ul id="navbar2">
+                        <li>Nội dung 1</li>
+                        <li>Nội dung 2</li>
+                        <li>Nội dung 3</li>
+                        <li><a href="./trangcon1.html">trangcon1</a></li>
+                    </ul>
+                
+                    
+
+                </div>
+                    
+
+
+
+                <div class="content">
+
+                    <div id="menu">
+                        <ul>
+                            <li><a href="#">item1</a></li>
+                            <li><a href="#">item2</a>
+                                <ul class="sub-menu2">
+                                    <li><a href="#">item3.1</a></li>
+                                    <li><a href="#">item3.2</a></li>
+                                    <li><a href="#">item3.3</a></li>
+                                    <li><a href="#">item3.4</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="#">item333</a>
+                            <ul class="sub-menu3">
+                                <li><a href="#">item3.1</a></li>
+                                <li><a href="#">item3.2</a></li>
+                                <li><a href="#">item3.3</a></li>
+                                <li><a href="#">item3.4</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="#">item4</a></li>
+                            <li><a href="#">item5</a></li>
+    
+    
+                        </ul>
+                </div>
+
+                    <marquee 
+                    width="200" 
+                    diretion="left" 
+                    
+                    >
+                        chạy chữ chạy chạy
+                    </marquee>
+
+<!--<marquee id="marq" scrollamount="3" direction="up" 
+    loop="50" scrolldelay="0" behavior="scroll" 
+    onmouseover="this.stop()" onmouseout="this.start()"> *** 
+</marquee>
+
+    scrollamount và scrolldelay: là điều chỉnh thông số về 
+    tốc độ và thời gian.
+direction: là hướng chạy của đối tượng mà ta cho chạy. có 4 hướng là:
+ left - right - down - up
+loop: là số lần lặp của đối tượng.
+
+behavior: là hiệu ứng chạy của đối tượng, 
+có 3 giá trị: slide - alternate - scroll
+Slide: chạy tới khi chạm lề thì dừng lại.
+alternate: chạy tới khi chạm lề thì chạy ngược lại.
+scroll: là kiểu mặt định, kiểu này tự động áp dụng vào tất cả 
+các hình thức còn lại.-->
+
+                    <br>
+                    <marquee 
+                    width="200" 
+                    diretion="left" 
+                    behavior="slide"
+                    bgcolor="green"
+                    loop="100"
+                    onmouseover="this.stop()" 
+                    onmouseout="this.start()"
+                    >
+                        kkkkk chạy chữ chạy --- hình ảnh chạy
+                    </marquee>
+                    Nội dung chính <br/>
+                    <img class="feature-image" src="./image/penta darius.jpg">
+                </br></br> Phần nội dung class="content"
+                    <p>Video provides 
+                        </p>
+                <table class="table1">
+                   <tr>
+                       <th>
+                           123 </th>
+                       <th>456</th>
+                   </tr>
+                    <tr>
+                        <td>abc</td>
+                        <td>ghj</td>
+                    </tr>
+                    <tr>
+                        <th>1as</th>
+                        <td>ff54</td>
+                    </tr>
+
+
+
+                </table>
+
+                </div>
+            </div> <!-- kết thúc nội dung chính -->
+             
+            <div id="footer"> <!-- phần header -->
+                <p>Bản quyền thuộc về <a href="https://www.dammio.com">DAMMIO.COM</a> nhé các bạn! <br/>
+                </p>
+
+
+
+                
+                    <p> Phần chân trang id="footer"</p>
+            </div>
+             
+        </div>
+
+
+
+
+</html>

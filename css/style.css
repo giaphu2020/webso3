@@ -1,0 +1,172 @@
+body{
+    margin: 0px;
+    border-top:5px solid #e56038; /* đường gạch ngang ở trên cùng */ 
+    background-color: #ebe8de;
+    font-family: 'Akaya Telivigala', cursive;
+font-family: 'Grenze Gotisch', cursive;
+color: blue;
+    
+}
+
+a { 
+    
+    font-size: 20pt; 
+    color: chocolate;
+}
+p { 
+    
+    font-size: 20pt; 
+    text-align: justify;
+}
+
+h2 { 
+    
+    font-size: 20pt; 
+    color: blueviolet;
+}
+h1 { 
+    
+    font-size: 80pt; 
+    color: crimson;
+    text-align: left; /* ko có dòng này, tự động nằm bên trái*/
+}
+
+.wrap
+{
+    width: 1200px; /* kích thước chiều rộng trang web */
+    float: left; /* canh div từ trái sang */
+    
+}
+ 
+/* id="header" thì phải định nghĩa bằng dấu # và tên id (header) */
+#header 
+{
+    width: 1200px; /* kích thước chiều rộng trang web */
+    height: 150px;
+    float: left; /* canh div từ trái sang */
+    background-color: yellow; /* tạo màu để dễ nhìn */
+}
+ 
+.main
+{
+    width: 1200px; /* kích thước chiều rộng trang web */
+    
+    float: left; /* canh div từ trái sang */
+}
+ 
+/* chiều rộng của 2 vùng div "nav" và "content" phải bằng tổng độ rộng của trang */
+/* chú ý padding, border, margin có thể ảnh hưởng đến độ rộng của trang web */
+.nav
+{
+    width: 300px; /* kích thước chiều rộng của vùng thanh bên */
+    height: 500px;
+    float: left; /* canh div từ trái sang */
+    background-color: lightgreen; /* tạo màu để dễ nhìn */
+    box-sizing: border-box;
+}
+ 
+.content
+{
+    width: 900px; /* kích thước chiều rộng của vùng nội dung */
+    height: 500px;
+    float: left; /* canh div từ trái sang */
+    background-color: lightblue; /* tạo màu để dễ nhìn */
+    box-sizing: border-box;
+    
+}
+.feature-image{
+    max-width: 300px;
+    max-height: 150px;
+    
+    vertical-align: 0px;
+}
+ 
+#footer
+{
+    width: 1200px; /* kích thước chiều rộng của vùng nội dung */
+    float: left; /* canh div từ trái sang */
+    background-color: pink; /* tạo màu để dễ nhìn */
+}
+
+.no-margin-top {
+	margin-top: 0; /* remove margin on things like headers */
+}
+
+ /*làm menu bên phải*/
+#navbar {
+    list-style-type: none; /* remove bullet points */
+    margin: 29px 0 0 0;
+    padding: 0;
+    float: right;
+    font-size: 16pt;
+}
+#navbar li {
+    display: inline; /* make items horizontal */
+}
+
+/*làm menu bên phải*/
+#navbar2 {
+    list-style-type: none; /* remove bullet points */
+    margin: 29px 0 0 0;
+    padding: 0;
+    float: left;;
+    font-size: 16pt;
+}
+
+/*lam menu giua*/
+#menu ul{
+    list-style-type: none; /*bo cham tron*/
+    background: #1f5688;
+    text-align: center;
+}
+
+#menu ul li{
+    color: #e56038;
+    display: inline-table; /*lam menu ngang*/
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    position: relative; /*ẩn hiện menu con*/
+}
+/*trang tri lai menu*/
+#menu ul li a{ 
+    color: #ebe8de;
+    text-decoration: none;
+    display: block;
+}
+/*hieu ung di chuyen chuot vao*/
+
+#menu ul li a:hover{
+    background: #ebe8de;
+    color: #333;
+}
+
+#menu ul li >.sub-menu3 {
+    display: none;
+    position: absolute;/*ẩn hiện menu con*/
+}
+#menu ul li:hover .sub-menu3{
+    display: block;
+}
+
+#menu ul li >.sub-menu2 {
+    display: none;
+    position: absolute;
+    
+}
+#menu ul li:hover .sub-menu2{
+    display: block;
+}
+.table1{
+    boder: 3px solid red;
+    font-size: 20px;
+}
+.table1 th{
+    border: 5 px salmon;
+    font-size: larger;
+
+}
+.table1 td{
+    border: 8px green;
+    padding: 5px;
+}
